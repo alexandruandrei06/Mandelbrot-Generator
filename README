@@ -1,0 +1,24 @@
+Alexandru Andrei-Bogdan
+Grupa 342C1
+
+Colocvial, un fractal este o figură geometrică fragmentată sau frântă care 
+poate fi divizată în părţi, astfel încât fiecare dintre acestea să fie 
+(cel puţin aproximativ) o copie miniaturală a întregului".
+
+Proiectul își propune paralelizarea calculelor mulțimii Mandelbrot, 
+pornind de la implementarea secvențială, cu scopul de a observa diferențele 
+formelor de paralelizare asupra celor doi algoritmi.
+
+Format fișier de intrare Mandelbrot:
+
+Prima linie – subspațiul complex
+A doua linie - rezoluția de calcul​
+A treia linie - numărul maxim de pași de calcul (MAX_STEPS)​
+
+Instrucțiuni compilare, rulare și ștergere:
+
+Pentru compilarea tuturor surselor si ruleara algoritmilor si a unui checker
+care verifica corectitudinea implementariii, trebuie ca check.sh sa aiba 
+drepturi de execute. 
+
+Astfel, se ruleaza toate implementarile si testele folosind comanda ./check.sh
